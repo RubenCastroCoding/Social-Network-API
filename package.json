@@ -1,0 +1,30 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "Creating the backend logic for a social network that uses MongoDB",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server",
+      "dev": "nodemon server"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RubenCastroCoding/Social-Network-API"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/RubenCastroCoding/Social-Network-API/issues"
+    },
+    "homepage": "https://github.com/RubenCastroCoding/Social-Network-API/blob/main/README.md",
+    "dependencies": {
+      "express": "^4.18.1",
+      "moment": "^2.29.3",
+      "mongoose": "^6.4.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.16"
+    }
+  }
