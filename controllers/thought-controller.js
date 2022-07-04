@@ -36,7 +36,7 @@ const thoughtController = {
     // expected body:
     // {
     //     "thoughtText": "hey",
-    //     "username": "reka",
+    //     "username": "ruben",
     // }
     createThought({ body }, res) {
         Thought.create(body)
@@ -62,7 +62,7 @@ const thoughtController = {
     // expected body should include at least one of the following attributes:
     // {
     //     "thoughtText": "hey",
-    //     "username": "reka",
+    //     "username": "ruben",
     //     "thoughtId": "[insert random numbers here]" 
     // }
     updateThought({ params, body }, res) {
@@ -124,7 +124,7 @@ const thoughtController = {
     // DELETE /api/thoughts/:id/reactions
     // expected body should include at least one of the following attributes:
     // {
-    //     "reactionId": "reka" 
+    //     "reactionId": "ruben" 
     // }
     deleteReaction({ params, body }, res) {
         Thought.findOneAndUpdate(
